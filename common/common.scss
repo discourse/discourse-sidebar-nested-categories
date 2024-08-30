@@ -1,0 +1,37 @@
+.sidebar-sections [data-section-name="categories"] {
+  // hide default category section
+  display: none;
+}
+
+[data-list-item-name="subcategory"] + [data-list-item-name="category"] {
+  margin-top: 0.25em;
+}
+
+[data-list-item-name="category"] + [data-list-item-name="subcategory"] {
+  margin-top: 0.25em;
+}
+
+[data-list-item-name="category"] {
+  width: 100%;
+}
+
+.sidebar-section-link-wrapper[data-list-item-name="subcategory"] {
+  width: auto;
+  font-size: var(--font-down-1);
+  border-left: 1px solid var(--primary-low);
+  margin-left: 2.15em;
+  height: 1.75em;
+  padding-left: 1em;
+
+  a {
+    width: auto;
+    padding: 0;
+    height: 100%;
+    height: unset !important; // very specific in core
+    padding: 0 0.5em 0 0;
+    &:hover {
+      background: transparent;
+      text-decoration: underline;
+    }
+  }
+}

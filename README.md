@@ -1,5 +1,1 @@
-# discourse-sidebar-nested-categories
-
-**Theme Summary**
-
-For more information, please see: **url to meta topic**
+Shows all categories in the sidebar, and nests subcategories.
