@@ -81,7 +81,7 @@ export default {
                 (category) =>
                   new CustomCategoriesSectionLink({
                     category,
-                  }),
+                  })
               );
             }
 
@@ -103,7 +103,7 @@ export default {
           };
 
           return CustomCategoriesSection;
-        },
+        }
       );
     });
   },
