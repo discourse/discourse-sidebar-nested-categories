@@ -1,6 +1,6 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 import Category from "discourse/models/category";
-import I18n from "I18n";
+import { i18n } from "discourse-i18n";
 
 export default {
   name: "custom-categories-section",
@@ -86,11 +86,11 @@ export default {
             }
 
             get name() {
-              return I18n.t("filters.categories.title");
+              return i18n("filters.categories.title");
             }
 
             get text() {
-              return I18n.t("filters.categories.title");
+              return i18n("filters.categories.title");
             }
 
             get links() {
