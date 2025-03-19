@@ -25,10 +25,10 @@
 
   a {
     width: auto;
-    padding: 0;
     height: 100%;
     height: unset !important; // very specific in core
     padding: 0 0.5em 0 0;
+
     &:hover {
       background: transparent;
       text-decoration: underline;
