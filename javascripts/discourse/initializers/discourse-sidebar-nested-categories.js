@@ -5,7 +5,7 @@ import { i18n } from "discourse-i18n";
 export default {
   name: "custom-categories-section",
   initialize(container) {
-    withPluginApi("1.3.0", (api) => {
+    withPluginApi((api) => {
       api.addSidebarSection(
         (BaseCustomSidebarSection, BaseCustomSidebarSectionLink) => {
           const CustomCategoriesSectionLink = class extends BaseCustomSidebarSectionLink {
